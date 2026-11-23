@@ -1,4 +1,4 @@
-# Zapmatte Green Screen Removal API
+# Zapmatte
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Zapmatte Green Screen Removal API is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://zapmatte.com
+Zapmatte provides an online service that removes green, blue, or teal screens from video clips, delivering transparent backgrounds suitable for editing. Users upload footage and are charged per second of processed video, with failed jobs refunded. The platform supports multiple output formats including ProRes 4444 with alpha, transparent WebM, and MP4 with solid colour backgrounds, catering to creators and post‑production workflows.
+
+**Areas:** Company · video · green-screen · chroma-key · background-removal · media-processing
+
+## Zapmatte on APIs.io
+
+Everything profiled for Zapmatte is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zapmatte-com/](https://apis.io/providers/zapmatte-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Zapmatte Account API](https://apis.io/apis/zapmatte-com/zapmatte-com-account-api/) — Credit balance
+- [Zapmatte Jobs API](https://apis.io/apis/zapmatte-com/zapmatte-com-jobs-api/) — Start a removal and follow it
+- [Zapmatte Upload API](https://apis.io/apis/zapmatte-com/zapmatte-com-upload-api/) — Screen a clip and get a one-time upload URL
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Zapmatte Agentic Access](https://apis.io/agentic-access/zapmatte-com/zapmatte-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Credits](https://apis.io/schemas/zapmatte-com/zapmatte-com-credits/)
+- [RemovalRequest](https://apis.io/schemas/zapmatte-com/zapmatte-com-removal-request/)
+- [RemovalStarted](https://apis.io/schemas/zapmatte-com/zapmatte-com-removal-started/)
+- [RemovalStatus](https://apis.io/schemas/zapmatte-com/zapmatte-com-removal-status/)
+- [UploadRequest](https://apis.io/schemas/zapmatte-com/zapmatte-com-upload-request/)
+- [UploadResponse](https://apis.io/schemas/zapmatte-com/zapmatte-com-upload-response/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Zapmatte API Rules](https://apis.io/rules/zapmatte-com/zapmatte-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Zapmatte Domain Security](https://apis.io/security/zapmatte-com/zapmatte-com-domain-security/)
+- [Zapmatte Vulnerability Disclosure](https://apis.io/security/zapmatte-com/zapmatte-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Zapmatte Plans Pricing](https://apis.io/plans/zapmatte-com/zapmatte-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://zapmatte.com)
+- [Documentation](https://zapmatte.com/developers)
+- [Pricing](https://zapmatte.com/pricing)
+- [Support](https://zapmatte.com/support)
+- [Terms of service](https://zapmatte.com/terms)
+- [Privacy policy](https://zapmatte.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 44.6** — developing · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 49.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 48.5 |
+
+**Agent readiness 29.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zapmatte-com/](https://apis.io/providers/zapmatte-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Zapmatte: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/zapmatte-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
